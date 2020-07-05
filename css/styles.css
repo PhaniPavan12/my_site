@@ -1,19 +1,28 @@
 body{
   background-color: orange;
+  color:#40514e;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 
 }
 h1{
-  font-size: 90px;
-  font-family: 'Sacramento', cursive;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 5.25rem;
+  font-family: 'Sacramento', sans-serif;
+  color: blue;
+  line-height:150px;
+  padding-bottom: 20px;
+
 }
 h2{
   font-family: 'Montserrat', sans-serif;
+  color: purple;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: green;
 }
 .top-container{
   background-color: #b9ac92;
@@ -24,21 +33,101 @@ h3{
 }
 .middle-container{
   background-color: #fecb89;
+  padding-top: 100px;
+  padding-bottom: 10px;
 
 }
 .bottom-container{
-  background-color:#fecb89 ;
-
+  background-color: #fbe6d4;
+  padding-top: 40px;
+  padding-bottom: 16px;
 }
+
 
 .bottom-cloud{
   position: absolute;
-  left:300px;
+  left:250px;
   bottom:300px;
 }
 .top-cloud{
   position: absolute;
   right:300px;
   top:50px;
+
+}
+.skill-row{
+  width:50%;
+  margin:50px auto 50px auto;
+  text-align: left;
+}
+.developer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 50px;
+}
+.fixing{
+  width:25%;
+  float: right;
+  margin-right: 30px;
+}
+.skills{
+  height:500px;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+p{
+  line-height: 2;
+}
+.message{
+  width:20%;
+  margin: 60px auto 40px;
+}
+.btn {
+	background-color:#44c767;
+	border-radius:5px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:4px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+a{
+  color: #01a9b4;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #086972;
+}
+.cp{
+  color: #111d5e;
+  font-family: 'Merriweather', serif;
+  font-size: 0.75rem;
+  padding: 30px 0;
+}
+.giphy-embed{
+  margin: auto;
+  right: 1000px;
+  bottom:575px;
+  background-color: #b9ac92;
+  border: none;
+  height:170px;
+  width:170px;
 
 }
